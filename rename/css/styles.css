@@ -10,27 +10,27 @@ footer {
 }
 
 header {
-	background-color: #fff;
-	padding: 5px 0;
-	display: flex;
-	align-items:center;
-	justify-content:center;
+    background-color: #fff;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 header img {
-	width: 125px;
+    width: 125px;
     height: auto;
 }
 
 .heading {
-	display: flex;
+    display: flex;
     flex-direction: column;
 }
 
 .heading h1 {
-	font-size: 2rem;
-	color: navy;
-	margin: 0;
+    font-size: 2rem;
+    color: navy;
+    margin: 0;
 }
 
 nav {
@@ -62,24 +62,24 @@ a:active {
 }
 
 body {
-    font-family: 'Roboto', arial, sans-serif ;
+    font-family: 'Roboto', arial, sans-serif;
     font-size: 16px;
 }
 
-h1{
+h1 {
     font-size: 2rem;
     padding: 10px;
 }
 
-h2{
+h2 {
     font-size: 1.5rem;
-    padding:10px 10px 0px;
+    padding: 10px 10px 0px;
 }
 
 p {
     background-color: #D1CFDE;
     font-size: 1rem;
-    padding:0px 10px 10px;
+    padding: 0px 10px 10px;
     line-height: 115%;
 }
 
