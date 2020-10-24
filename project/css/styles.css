@@ -10,7 +10,7 @@ footer {
 }
 
 header {
-    background-color: #fff;
+    background-color: #D1CFDE;
     padding: 5px 0;
     display: flex;
     align-items: center;
@@ -22,27 +22,20 @@ header img {
     height: auto;
 }
 
-.heading {
-    display: flex;
-    flex-direction: column;
-}
-
-.heading h1 {
+h1 {
     font-size: 2rem;
     color: navy;
     margin: 0;
 }
 
-nav {
-    background-color: #35366E;
-}
-
 ul {
     list-style-type: none;
+    padding: 5px;
 }
 
 li {
     display: inline;
+    margin: 2px;
 }
 
 a:link {
@@ -77,31 +70,26 @@ h2 {
 }
 
 p {
-    background-color: #D1CFDE;
     font-size: 1rem;
     padding: 0px 10px 10px;
     line-height: 115%;
 }
 
 footer {
-    background-color: #35366E;
     display: grid;
     grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
-    align-content: center;
+    text-align: left;
 }
 
 .company-info {
     grid-column: 1;
-    grid-row: 1;
 }
 
 .social {
     grid-column: 2;
-    grid-row: 1;
+    align-content: center;
 }
 
 #page-info {
-    grid-column: 1/2;
-    grid-row: 2;
+    grid-column: 1/3;
 }
